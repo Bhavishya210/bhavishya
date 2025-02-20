@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio - CSE Student</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+    }
+
+    header nav {
+      margin-top: 10px;
+    }
+
+    header nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    header nav a:hover {
+      border-bottom: 2px solid #fff;
+    }
+
+    section {
+      padding: 50px 20px;
+      margin: 20px 0;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .skills, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .skill, .project {
+      background-color: #fff;
+      padding: 20px;
+      margin: 10px;
+      width: 30%;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .skill h3, .project h3 {
+      margin-bottom: 10px;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .project img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .contact-form button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #555;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+    }
+
+    @media screen and (max-width: 768px) {
+      .skills, .projects {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .skill, .project {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        Hi! I am a Computer Science Engineering student with a passion for technology and problem-solving.
+        I have a strong foundation in programming, algorithms, and data structures. I'm always eager to
+        learn new technologies and improve my skills. I enjoy working on projects that challenge me and
+        allow me to grow as a developer.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">
+          <h3>Programming Languages</h3>
+          <p>Python, Java, C++, JavaScript</p>
+        </div>
+        <div class="skill">
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JavaScript, React</p>
+        </div>
+        <div class="skill">
+          <h3>Data Structures & Algorithms</h3>
+          <p>Arrays, Linked Lists, Trees, Sorting, Searching</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>Project 1: Web Portfolio</h3>
+          <img src="https://via.placeholder.com/400x250" alt="Project 1">
+          <p>A responsive portfolio website built with HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project">
+          <
